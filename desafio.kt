@@ -42,7 +42,7 @@ fun main() {
     val formacaoBasica = Formacao("O Poder das Funções", listContent, Nivel.BASICO)
     val formacaoIntermediaria = Formacao("Tratamento de Exceções em Kotlin", listContent, Nivel.INTERMEDIARIO)
     
-	formacaoBasica.matricular(aluno1)
+    formacaoBasica.matricular(aluno1)
     formacaoBasica.matricular(aluno2)
     formacaoBasica.matricular(aluno3)
     
